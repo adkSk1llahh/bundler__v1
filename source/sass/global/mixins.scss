@@ -1,0 +1,83 @@
+@mixin title-family {
+	font-family: $font-family--open-sans;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@mixin h1 {
+	@include title-family;
+
+	font-size: 24px;
+	line-height: 1;
+}
+
+@mixin h2 {
+	@include title-family;
+
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+@mixin text-family {
+	font-family: $font-family--default;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin text {
+	@include text-family;
+
+	font-size: 14px;
+	line-height: 1.286;
+}
+
+@mixin button-text {
+	@include text-family;
+
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+@mixin indents-reset {
+	margin: 0;
+	padding: 0;
+}
+
+@mixin list-reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@mixin retina {
+	@media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+		@content;
+	}
+}
+
+// Mobile first
+
+@mixin viewport--md {
+	@media (min-width: $viewport--md) {
+		@content;
+	}
+}
+
+@mixin viewport--lg {
+	@media (min-width: $viewport--lg) {
+		@content;
+	}
+}
+
+@mixin viewport--xl {
+	@media (min-width: $viewport--xl) {
+		@content;
+	}
+}
+
+@mixin viewport--xxl {
+	@media (min-width: $viewport--xxl) {
+		@content;
+	}
+}

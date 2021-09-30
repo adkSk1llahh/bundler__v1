@@ -1,0 +1,52 @@
+// Global
+//------------------------------------------------------------------------------------//
+
+@import "global/variables";
+@import "global/mixins";
+@import "global/fonts";
+@import "global/reboot";
+@import "global/common";
+
+@import "blocks/components/result-modal";
+@import "blocks/components/question-modal";
+@import "blocks/components/menu-list";
+@import "blocks/components/menu";
+@import "blocks/components/contact-modal-btn";
+@import "blocks/components/button";
+@import "blocks/components/field-text";
+@import "blocks/components/field-checkbox";
+@import "blocks/components/modal/modal";
+@import "blocks/components/modal/backdrop";
+
+// Header
+//------------------------------------------------------------------------------------//
+@import "blocks/header/logo";
+@import "blocks/header/nav-list";
+@import "blocks/header/nav";
+@import "blocks/header/language";
+@import "blocks/header/header";
+
+// Main
+//------------------------------------------------------------------------------------//
+@import "blocks/main/app";
+@import "blocks/main/app-info";
+@import "blocks/main/about-service-list";
+@import "blocks/main/about-service";
+@import "blocks/main/faq-list";
+@import "blocks/main/faq";
+@import "blocks/main/features-list";
+@import "blocks/main/features";
+@import "blocks/main/banks-list";
+@import "blocks/main/banks";
+@import "blocks/main/get-money-list";
+@import "blocks/main/get-money";
+@import "blocks/main/send-money-list";
+@import "blocks/main/send-money";
+@import "blocks/main/tezapp";
+@import "blocks/main/block";
+@import "blocks/main/main";
+
+// Main
+//------------------------------------------------------------------------------------//
+@import "blocks/footer/copyright";
+@import "blocks/footer/footer";

@@ -1,0 +1,44 @@
+// Default
+// ---------------------------------
+$color-default-black:             #000000;
+$color-default-white:             #ffffff;
+$color-transparent:               rgba(255, 255, 255, 0);
+
+// Text colors
+// ---------------------------------
+$color-text-primary:              #1DD499;
+$color-text-primary-dark:         #3ECBC0;
+$color-text-secondary:            #D1D3D6;
+$color-text-secondary-dark:       #9DA1A7;
+$color-text-gradient-main: 		  linear-gradient(263.6deg, #16D691 27.28%, #71BCFF 71.83%),
+								  linear-gradient(0deg, #5FAF61, #5FAF61);
+$color-text-gradient-secondary:	  linear-gradient(0deg, #38CBB0, #38CBB0),
+								  linear-gradient(0deg, #5FAF61, #5FAF61);
+
+// Background colors
+//---------------------------------
+$color-bg-primary:                #0B1323;
+$color-bg-secondary:              #1A2133;
+$color-bg-footer:                 #0670AA;
+
+// Fonts
+//---------------------------------
+$font-family--default:            "SF UI", "Arial", sans-serif;
+$font-family--open-sans: 		  "Open Sans", "Arial", sans-serif;
+
+// Animation
+//---------------------------------
+$default-transition-settings:     0.3s ease;
+
+// Viewports
+//---------------------------------
+$viewport--sm:                    320px;
+$viewport--md:                    768px;
+$viewport--lg:                    1024px;
+$viewport--xl:                    1280px;
+$viewport--xxl:                   1920px;
+
+// Retina
+//---------------------------------
+$retina-dpi:                      144dpi;
+$retina-dppx:                     1.5dppx;
